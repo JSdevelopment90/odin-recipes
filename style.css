@@ -1,0 +1,46 @@
+#title {
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px;
+}
+.main {
+    background-color: lavender;
+    text-align: left;
+    color: blueviolet;
+}
+
+h2.header, h3.header, h4.header {
+    background-color: darkblue;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3.header {
+    font-size: 26px;
+}
+
+h4.header {
+    font-size: 22px;
+}
+
+.intro {
+    background-color: orange;
+    color: rgb(32, 30, 32);
+    font-size: 16px;
+    display: block;
+}
+
+.content {
+    background-color: floralwhite;
+    color:darkgreen
+}
+
+.outro {
+    background-color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:blanchedalmond
+}

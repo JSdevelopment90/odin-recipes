@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Jordy's Recipes</h1>
-    <img src="img/food.jpg" height="400" width="1280" alt="Picture with diferent kind of food">
-    <p>Hello, This is my very first project with HTML. On this website you find links to different recipes</p>    
-    <h3><strong>List of recipes</strong></h3>
+    <div class="main">
+        <div id="title">
+            <h1>Jordy's Recipes</h1>
+        </div>
+        <img src="img/food.jpg" height="400" width="1280" alt="Picture with different kind of food">
 
-    <ul>
-        <li><a href="recipes/lasagna.html" rel="noopener norefferer">Lasagna</a></li>
-        <li><a href="recipes/pasta-pesto.html" rel="noopener norefferer">Pasta Pesto</a></li>
-        <li><a href="recipes/hotdog.html" rel="noopener norefferer">Hotdog</a></li>
-    </ul>
-    <p><strong>Thank you for checking this out!</strong></p>
+            <div class="intro">
+                <h2 class="header">Introduction of the website</h2>
+                <p>Hello, This is my very first project with HTML. On this website you find links to different recipes</p>    
+            </div>
+            <div class="content">
+                <h2 class="header">List of recipes</h2>
+                <p>Here you will find a linst of different recipes I really like to share with you<br>
+                Enjoy the content!</p>
+                <ul>
+                    <li><a href="recipes/lasagna.html" rel="noopener norefferer">Lasagna</a></li>
+                    <li><a href="recipes/pasta-pesto.html" rel="noopener norefferer">Pasta Pesto</a></li>
+                    <li><a href="recipes/hotdog.html" rel="noopener norefferer">Hotdog</a></li>
+                </ul>
+            </div>
+            <div class="outro">
+                <p>Thank you for checking this out!</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
